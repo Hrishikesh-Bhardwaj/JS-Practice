@@ -15,17 +15,19 @@ console.log(typeof valueInNumber)
 let someNumber = 33
 let stringNumber = String(someNumber)
 
-console.log(someNumber)
-console.log(stringNumber)
-console.log(typeof stringNumber)
+// console.log(someNumber)
+// console.log(stringNumber)
+// console.log(typeof stringNumber)
 
 // ******************************** Operations ********************************************
 
 let value = 3
 let negVal = -value
-console.log(negVal)
+//console.log(negVal)
 
-console.log("1" + 2) //12
-console.log(1 + "2") //12
-console.log("1" + 2+ 2) //122   
-console.log(1 + 2 + "2") //32
+//console.log("1" + 2)        //  12
+//console.log(1 + "2")        //  12
+//console.log("1" + 2+ 2)     //  122   
+//console.log(1 + 2 + "2")    //  32
+
+console.log(null==0)
