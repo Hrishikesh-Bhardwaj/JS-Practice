@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Asynch JavaScript</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>     
+
+    // put this function (sayMyName) seprate and give reference in setTimeout or declare this function direct in setTimeout 
+    const sayMyName = ()=> {
+        console.log('hrishikesh')
+    }
+    setTimeout( sayMyName, 5000 )
+
+    const changeHeading = function(){
+        document.querySelector('h1').innerHTML= 'perfect example of Asynch JS'
+    }
+    const changeMe = setTimeout(changeHeading, 3000)
+
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(changeMe)
+        console.log('stopped')
+    })
+    
+</script>
+</html>
