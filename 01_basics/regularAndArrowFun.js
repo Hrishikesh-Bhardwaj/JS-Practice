@@ -1,4 +1,4 @@
-/* 
+    /* 
     ## Difference between regular and arrow function:
 
     1. argument object are not available in arrow functions,
