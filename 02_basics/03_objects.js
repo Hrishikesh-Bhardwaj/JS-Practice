@@ -70,7 +70,8 @@ const obj2 = {
 // console.log(obj3) // merged obj1 and obj2 into obj3
 
 const obj3 = {...obj1, ...obj2}
-console.log(obj3)
+console.log(obj3);
+console.log(typeof obj3)
 
 const user = [
     {
@@ -82,6 +83,6 @@ const user = [
     }
 ]
 
-console.log(Object.keys(tinderUser)) // return type array 
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// console.log(Object.keys(tinderUser)) // return type array 
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))

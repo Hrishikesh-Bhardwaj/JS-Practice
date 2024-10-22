@@ -1,5 +1,5 @@
 /*
-    Implement toLowerCase using for and if 
+    Implement to LowerCase using for and if 
 
     Range   a to z = 92 - 122
             A to z = 65 - 90

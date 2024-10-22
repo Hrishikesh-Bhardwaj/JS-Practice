@@ -1,5 +1,5 @@
 /*
-Implement toUpperCase using for and if 
+Implement to UpperCase using for and if 
 Range   a to z = 92 - 122
         A to z = 65 - 90
 
